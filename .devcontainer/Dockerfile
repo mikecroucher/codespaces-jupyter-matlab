@@ -14,7 +14,7 @@
 ARG MATLAB_RELEASE=r2023a
 
 # Specify the list of products to install into MATLAB, 
-ARG MATLAB_PRODUCT_LIST="MATLAB,Deep_Learning_Toolbox,Statistics_and_Machine_Learning_Toolbox"
+ARG MATLAB_PRODUCT_LIST="MATLAB Deep_Learning_Toolbox Statistics_and_Machine_Learning_Toolbox"
 
 # Optional Network License Server information
 ARG LICENSE_SERVER
